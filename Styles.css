@@ -1,0 +1,17 @@
+h1{
+    font-weight: bold;
+    font-family: "Open-sans", Arial, sans-serif;
+}
+
+p{
+    font-family: 'Open-sans', Arial, sans-serif;
+}
+
+button{
+    padding: 5px;
+    font-family: 'open-sans', Arial, sans-serif;
+}
+
+label{
+    font-family: 'open-sans', Arial, sans-serif';
+}
