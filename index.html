@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="app de gestión de tareas" content="aplicacion web para gestión de tareas, permite eliminar, agregar y editar">
+        <meta charset="utf-8">
+        <title>Gestor de tareas</title>
+    </head>
+
+    <body>
+        <h1>GESTOR DE TAREAS</h1>
+        <div id="descripcion pagina">
+            <p>
+                Agrega o edita tus tareas
+            </p>
+        </div>
+    <div id="formulario tareas">
+    <form action="/action_page.php">
+        <ul>
+            <li>
+                <label for="nombre">Tarea:</label>
+                <input type="text" id="nombre" name="nombre-tarea" required>
+            </li>
+            <li>
+                <label for="descripcion">Descripcion:</label><br>
+                <textarea id="descripcion" name="descripcion-tarea" required></textarea>
+            </li>
+            <li>
+                <label for="fecha">Fecha inicio:</label>
+                <input type="date" name="fecha" id="fecha-inicio" required>
+            </li>
+            <li>
+                <label for="fecha">Fecha fin:</label>
+                <input type="date" name="fecha" id="fecha-fin" required>
+            </li>
+                <button type="submit">Agregar tarea</button>
+                <button type="button">Editar tareas</button>
+                <button type="button">Ver tareas</button>
+        </ul>
+    </form>
+    </div>
+        
+    </body>
+</html>
