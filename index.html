@@ -15,7 +15,7 @@
             </p>
         </div>
     <div id="formulario tareas">
-    <form action="/action_page.php">
+        <form id="task-form">
         <ul>
             <li>
                 <label for="nombre">Tarea:</label>
@@ -27,18 +27,21 @@
             </li>
             <li>
                 <label for="fecha">Fecha inicio:</label>
-                <input type="date" name="fecha" id="fecha-inicio" required>
+                <input type="date" name="fecha" id="fecha_inicio" required>
             </li>
             <li>
                 <label for="fecha">Fecha fin:</label>
-                <input type="date" name="fecha" id="fecha-fin" required>
+                <input type="date" name="fecha" id="fecha_fin" required>
             </li>
-                <button type="submit">Agregar tarea</button>
-                <button type="button">Editar tareas</button>
-                <button type="button">Ver tareas</button>
         </ul>
+                <button type="submit">Completar</button>
     </form>
     </div>
-        
+
+    <div id="lista-tareas">
+    <h2>LISTA DE TAREAS</h2>
+    <ul id="registros_tareas"></ul>
+    </div>
+        <script src="app.js"></script>
     </body>
 </html>
